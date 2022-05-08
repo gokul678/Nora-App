@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#6C63FF"
+    tools:context=".Sms_send">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/image1"
+        android:src="@drawable/sms_bottom"
+        />
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:text="Write about.."
+        android:textSize="25dp"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/UserName"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/input_screen"
+        android:layout_height="60dp"
+        android:paddingLeft="20dp"
+        android:drawablePadding="20dp"
+        android:hint="Phone Number"
+        android:drawableTint="@color/black"
+        android:textColor="@color/black"
+        android:inputType="number"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_phone"
+        />
+    <EditText
+        android:id="@+id/Texttts"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/input_screen"
+        android:layout_height="150dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="20dp"
+        android:hint="Write about..."
+        android:gravity="left"
+        android:drawablePadding="20dp"
+        android:textColor="@color/black"
+
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SEND"
+        android:text="Send"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_bold"
+        android:background="@drawable/button"
+        />
+
+</LinearLayout>

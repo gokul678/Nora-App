@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1000926323162",
+    "firebase_url": "https://dummy-194ea-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "dummy-194ea",
+    "storage_bucket": "dummy-194ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000926323162:android:db994537226fa64c3aa0e3",
+        "android_client_info": {
+          "package_name": "com.example.hack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000926323162-ul39lgic62i9jl6b0gpths4v6i6ntvsf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxyqDVUWRNkKjPigEhvzYqvCdLeitqV64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000926323162-ul39lgic62i9jl6b0gpths4v6i6ntvsf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

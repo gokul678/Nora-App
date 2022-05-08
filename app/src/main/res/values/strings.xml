@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Nora</string>
+
+    //Headings
+    <string name="heading_one"></string>
+    <string name="heading_two">Instant Notifications</string>
+    <string name="heading_three">Cashless Payment</string>
+    <string name="heading_fourth">Pay Anywhere</string>
+
+    //Description
+    <string name="desc_one">Buliding a more mindful and compassionate world..</string>
+    <string name="desc_two">Mindfullness is the idea of Learning how to be fully present in the movement...</string>
+    <string name="desc_three">Mental health done differntly..</string>
+    <string name="desc_fourth">Lets enjoy life hearts as deep and calm as the ocean...</string>
+
+</resources>

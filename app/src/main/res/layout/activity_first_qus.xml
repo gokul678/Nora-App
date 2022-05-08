@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="#E5E5E5"
+    tools:context=".First_qus">
+<TextView
+    android:id="@+id/Text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:textSize="20dp"
+    android:gravity="center"
+    android:textColor="#6C63FF"
+    android:fontFamily="@font/poppins_bold"
+    android:text="We are going to
+ask you 10 questions
+about emotional health
+"
+    />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/IntroImage"
+        android:src="@drawable/ques_logo"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NextButton"
+        android:text="Lets Begin"
+        android:textColor="@color/white"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_bold"
+        android:background="@drawable/button"
+        />
+</LinearLayout>
